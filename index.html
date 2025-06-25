@@ -14,21 +14,21 @@
 
 <body>
 
-    
+
     <img src="./assets/sortelogo.png" alt="Logo Sorteio">
 
     <h2>Sortear um número</h2>
 
     <div class="input-group">
-        <input placeholder="entre" type="number" id="input-min">
+        <input class="input-min" placeholder="entre" type="number">
 
-        <input placeholder="e" type="number" id="input-max">
+        <input class="input-max" placeholder="e" type="number" >
     </div>
 
-    <button id="sortear">Sortear</button>
+    <button onclick="generateNumber()" id="sortear">Sortear</button>
 
     <footer>
-        <p>&copy; 2025 Conversor de Moedas | Desenvolvido por Lukac's Bdc</p>
+        <p>&copy; 2025 Projeto da Sorte | Desenvolvido por Lukac's Bdc</p>
         <p>
             <a href="https://github.com/LukacsBdc" target="_blank">GitHub</a> |
             <a href="mailto:lukacsbdc@outlook.com">Contato</a>
@@ -36,5 +36,5 @@
     </footer>
 
 </body>
-
+<script src="./main.js"></script>
 </html>
